@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Timers App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Multiple Timer App</h1>
+    </header>
+    <main>
+        <section id="timer-input-section">
+            <div class="input-container">
+                <label for="hours">Hours :</label>
+                <input type="number" id="hours" min="0" placeholder="0">
+            </div>
+            <div class="input-container">
+                <label for="minutes">Minutes :</label>
+                <input type="number" id="minutes" min="0" max="59" placeholder="0">
+            </div>
+            <div class="input-container">
+                <label for="seconds">Seconds :</label>
+                <input type="number" id="seconds" min="0" max="59" placeholder="0">
+            </div>
+            <button id="start-timer-btn">Start New Timer</button>
+        </section>
+
+        <section id="active-timers-section">
+            <!-- Active timers will be dynamically added here -->
+        </section>
+    </main>
+    <audio id="timer-alert">
+        <!-- Provide the path to the audio file you want to use for the alert -->
+        <source src="path/to/audiofile.mp3" type="audio/mpeg">
+    </audio>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #333;
+    text-align: center;
+    padding: 2rem;
+    font-size: xx-large;
+}
+
+main {
+    padding: 2rem;
+}
+
+#timer-input-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.input-container {
+    /* display: flex;
+    flex-direction: column; */
+    align-items: center;
+    font-size: x-large;
+}
+
+input[type="number"] {
+    width: 60px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.active-timer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.timer-label {
+    font-weight: bold;
+}
+
+.timer-time {
+    font-size: 20px;
+}
+
+.timer-actions {
+    display: flex;
+    align-items: center;
+}
+
+.stop-timer-btn {
+    background-color: green;
+    color: white;
+    margin-left: 10px;
+}
